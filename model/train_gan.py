@@ -29,7 +29,7 @@ class Discriminator(nn.Module):
 # Hiperparámetros
 z_dim = 100
 batch_size = 128
-epochs = 2  # Puedes aumentar para mejor calidad
+epochs = 10  # Puedes aumentar para mejor calidad
 
 # Dataset MNIST
 transform = transforms.Compose([
